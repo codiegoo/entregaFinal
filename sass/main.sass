@@ -1,0 +1,215 @@
+@import index
+@import menu
+@import galeria
+@import ubicacion
+@import reservar
+@import clientes
+@import responsive
+@import variables
+
+
+body
+    margin: 0
+    background: rgb(48,56,65)
+    background: linear-gradient(0deg, rgba(48,56,65,1) 17%, rgba(230,175,46,1) 36%, rgba(245,208,97,1) 50%, rgba(111,95,44,1) 80%, rgba(48,56,65,1) 93%)
+
+// menu de navegacion
+.nav-container
+    background: #262626 !important
+    .container-fluid
+        padding: 8px
+        margin: 0 32px
+        a
+            font-family: 'Merienda'
+            color: #FFD24C            // transform: rotate(180deg 800ms)
+            img
+                width: 64px
+                transition: all 1.2s
+            img:hover
+                scale: 1.4
+                transform: rotate(360deg)
+        button.navbar-toggler
+            opacity: 1%
+        .container-links
+            padding: 8px
+            align-items: center
+            width: 60%
+            ul
+                margin-bottom: 0
+                display: flex
+                justify-content: space-between
+                align-items: center
+                li
+                    list-style: none
+                    a
+                        text-decoration: none
+                        color: #fff
+        .offcanvas
+            .offcanvas-header
+                align-content: center
+                background-color: #262626
+                a
+                    img
+                        margin-top: 8px
+                        width: 64px
+                h5.offcanvas-title
+                    font-family: 'Merienda'
+                    font-weight: 700
+                    color: #FFD24C
+            .offcanvas-body
+                background: rgb(255,210,64)
+                background: linear-gradient(0deg, rgba(255,210,64,1) 7%, rgba(181,157,78,1) 20%, rgba(138,122,51,1) 32%, rgba(74,65,28,1) 53%, rgba(38,38,38,1) 79%)
+                ul
+                    li
+                        list-style: none
+                        margin: 32px
+                        a
+                            text-decoration: none
+                            color: #fff
+
+//                           FOOTER
+
+footer
+    background: #262626
+    margin: 0
+    padding: 16px
+    display: grid
+    grid-template-columns: 1.5fr 1fr 1.5fr
+    grid-template-rows: 1fr 30px
+    .redes-sociales
+        .contenedor-nosotros
+            display: block
+            text-align: center
+            p
+                color: #fff
+                font-family: 'Poppins'
+            .contenedor-redes
+                display: flex
+                justify-content: space-around
+                svg.icon-color
+                    color: #FFD24C
+    .contacto
+        p
+            text-align: center
+            margin-top: 20px
+            font-size: 12px
+            font-family: 'Poppins'
+            color: #fff
+            font-weight: 100
+        .contenedor-contacto
+            form
+                display: flex
+                flex-direction: column
+                align-items: center
+                .textarea-mensaje,
+                .input-correo
+                    height: 32px
+                    margin-bottom: 8px
+                    font-family: 'Poppins'
+                    font-weight: 300
+                .boton-formulario
+                    padding: 8px
+                    margin-bottom: 16px
+                    font-family: 'Poppins'
+                    font-weight: 400
+                    background-color: #262626
+                    border: #92B4EC
+                .boton-formulario:hover
+                    background: #64c27b
+                    color: #fff
+                    border: #64c27b
+            h3
+                color: #FFD24C
+                font-family: 'Poppins'
+                font-weight: 700
+                margin-top: 0
+                text-align: center
+    section
+        .contenedor-nosotros
+            h3
+                color: #FFD24C
+                font-family: 'Poppins'
+                font-weight: 700
+                margin-top: 0
+                text-align: center
+    div.img-footer
+      display: flex
+      align-items: center
+      img
+        margin: 0 auto
+        width: 50%
+    .copy-main
+        text-align: center
+        grid-column: -4/-1
+        grid-row:   2/3
+        p
+            color: #FFD24C
+@media screen and (max-width: 450px)
+    footer
+        .contacto
+            .contenedor
+                form.formulario
+                    .input-nombre,
+                    .input-correo,
+                    .textarea-mensaje
+                        width: 232px
+                        height: 24px
+    footer
+        section.redes-sociales
+            .contenedor
+                a
+                    svg.icon-color
+                        width: 24px
+    footer
+        img
+            width: 35%
+            height: 130px
+            margin-top: 42px
+    footer
+        .contacto
+            .contenedor
+                form.formulario
+                    .input-nombre,
+                    .input-correo,
+                    .textarea-mensaje
+                        width: 200px
+    footer
+        .contacto
+            .contenedor-contacto
+                width: 100px
+    footer
+        .redes-sociales
+            .contenedor-nosotros
+                width: 116px
+                margin-left: 8px
+    footer
+        .contacto
+            .contenedor-contacto
+                form.formulario
+                    .textarea-mensaje,
+                    .input-correo
+                        width: 100px
+    footer
+        .contacto
+            .contenedor-contacto
+                h3
+                    font-size: 16px
+    footer
+        .redes-sociales
+            .contenedor-nosotros
+                h3
+                    font-size: 16px
+    footer
+        .redes-sociales
+            .contenedor-nosotros
+                p
+                    font-size: 12px
+    footer
+        .redes-sociales
+            .contenedor-nosotros
+                .contenedor-redes
+                    .icon-color
+                        width: 16px
+
+
+// EXT

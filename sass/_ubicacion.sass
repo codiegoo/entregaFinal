@@ -1,0 +1,41 @@
+@mixin btn-yellow()
+    border-radius: 8px
+    text-decoration: none
+    border: 1px solid #FFD24C
+    color: #FFD24C
+    padding: 16px
+    background: #262626
+    font-family: 'Merienda'
+.nav-ubicacion
+    margin: 0
+.contenedor-ubicacion
+    margin-top: 12%
+    margin-bottom: 64px
+    background-color: #262626
+    margin-right: 64px
+    padding: 64px 64px 64px 0px
+    border-radius: 0px 10px 10px 0px
+    display: flex
+    justify-content: space-between
+    h2
+        font-family: 'Merienda'
+        color: #FFD24C
+        margin-bottom: 32px
+    p
+        @extend %font-pp-whith
+        margin-bottom: 32px
+    .contenedor-texto-ubicacion
+        padding: 0 16px
+        .enlaces
+            margin: 0 auto
+            display: flex
+            a
+                @include btn-yellow
+                margin: auto 32px
+                text-align: center
+                justify-content: center
+                width: 128px
+
+            a:hover
+                color: #262626
+                background: #FFD24C

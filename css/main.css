@@ -1,0 +1,1265 @@
+.menu-titulo h2, header .inicio .contenedor-texto h1 {
+  font-family: "Merienda";
+  color: #FFD24C;
+}
+
+header .inicio .contenedor-texto h2 {
+  font-family: "Poppins";
+  color: #FFD24C;
+}
+
+.contenedor-ubicacion p {
+  font-family: "Poppins";
+  color: #fff;
+}
+
+header {
+  background-image: url(../img/banner-lj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 664px;
+  padding-top: 64px;
+}
+header .inicio {
+  background-color: rgba(75, 75, 75, 0.5);
+  border: 5px solid #FFD24C;
+  width: 360px;
+  text-align: center;
+  padding: 32px;
+  margin: auto;
+  margin-top: 12%;
+  border-radius: 10px;
+}
+header .inicio img {
+  width: 128px;
+  text-align: center;
+}
+header .inicio .contenedor-texto h2 {
+  font-weight: 100;
+}
+
+.menu-titulo {
+  margin-top: 10%;
+}
+.menu-titulo h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+section.nav-menu {
+  margin-bottom: 0;
+}
+
+section.menu {
+  margin-top: 8%;
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+}
+section.menu .item {
+  width: 100%;
+  background-color: #262626;
+  border-radius: 10px;
+  padding: 8px 16px;
+  box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.51);
+}
+section.menu .item h2 {
+  text-align: center;
+}
+section.menu .item h3 {
+  color: #EEEEEE;
+  text-align: center;
+  font-family: "Merienda";
+  font-weight: 600;
+}
+section.menu .item .comida {
+  background: rgb(255, 229, 142);
+  background: radial-gradient(circle, rgba(255, 229, 142, 0.9) 0%, rgba(255, 215, 95, 0.9) 52%, rgba(255, 215, 94, 0.9) 76%, rgba(255, 215, 98, 0.9) 88%, rgb(255, 210, 76) 95%, rgb(255, 210, 76) 100%);
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px 4px 4px rgba(255, 250, 136, 0.69);
+  -webkit-box-shadow: 0px 0px 4px 4px rgba(255, 250, 136, 0.69);
+  -moz-box-shadow: 0px 0px 4px 4px rgba(255, 250, 136, 0.69);
+}
+section.menu .item .comida .comida-precio {
+  padding: 8px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+section.menu .item .comida .texto-descripcion {
+  text-align: center;
+}
+section.menu .item .comida h4 {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+section.menu .item .comida p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.nav-galeria {
+  margin: 0;
+}
+
+.grid-galeria {
+  margin-top: 8%;
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 48px;
+}
+.grid-galeria .grid-item {
+  border-radius: 8%;
+  height: 100%;
+}
+.grid-galeria .grid-item img {
+  border-radius: 8%;
+  width: 100%;
+  height: 100%;
+  opacity: 70%;
+  -webkit-box-shadow: 10px 10px 24px 4px rgb(255, 210, 76);
+  -moz-box-shadow: 10px 10px 24px 4px rgb(255, 210, 76);
+  box-shadow: 10px 10px 24px 4px rgb(255, 210, 76);
+}
+.grid-galeria .grid-item img:hover {
+  scale: 1.1;
+  -webkit-box-shadow: 0px 0px 35px 11px rgb(255, 210, 76);
+  -moz-box-shadow: 0px 0px 35px 11px rgb(255, 210, 76);
+  box-shadow: 0px 0px 35px 11px rgb(255, 210, 76);
+  border: 2px solid rgb(48, 56, 65);
+  opacity: 100%;
+}
+
+.nav-ubicacion {
+  margin: 0;
+}
+
+.contenedor-ubicacion {
+  margin-top: 12%;
+  margin-bottom: 64px;
+  background-color: #262626;
+  margin-right: 64px;
+  padding: 64px 64px 64px 0px;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor-ubicacion h2 {
+  font-family: "Merienda";
+  color: #FFD24C;
+  margin-bottom: 32px;
+}
+.contenedor-ubicacion p {
+  margin-bottom: 32px;
+}
+.contenedor-ubicacion .contenedor-texto-ubicacion {
+  padding: 0 16px;
+}
+.contenedor-ubicacion .contenedor-texto-ubicacion .enlaces {
+  margin: 0 auto;
+  display: flex;
+}
+.contenedor-ubicacion .contenedor-texto-ubicacion .enlaces a {
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid #FFD24C;
+  color: #FFD24C;
+  padding: 16px;
+  background: #262626;
+  font-family: "Merienda";
+  margin: auto 32px;
+  text-align: center;
+  justify-content: center;
+  width: 128px;
+}
+.contenedor-ubicacion .contenedor-texto-ubicacion .enlaces a:hover {
+  color: #262626;
+  background: #FFD24C;
+}
+
+.nav-reservar {
+  margin: 0;
+}
+
+.contenedor-reservar {
+  background-color: #262626;
+  margin-top: 12%;
+  margin-bottom: 64px;
+  margin-left: 64px;
+  padding: 64px 0px 64px 64px;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor-reservar img {
+  width: 60%;
+  height: 348px;
+  margin-right: 64px;
+}
+.contenedor-reservar .contenedor-texto-reservar {
+  height: 348px;
+  background-color: #262626;
+}
+.contenedor-reservar .contenedor-texto-reservar h2,
+.contenedor-reservar .contenedor-texto-reservar h3 {
+  font-family: "Merienda";
+  font-weight: 700;
+  color: #FFD24C;
+}
+.contenedor-reservar .contenedor-texto-reservar p {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #fff;
+}
+.contenedor-reservar .contenedor-texto-reservar a {
+  padding: 8px;
+  background-color: #92B4EC;
+  border-radius: 10px;
+}
+
+.nav-clientes {
+  margin: 0%;
+}
+
+.contenedor-clientes {
+  background: #262626;
+  margin: 150px 50px 50px 0px;
+  padding: 16px;
+  border-radius: 0px 20px 20px 0px;
+}
+.contenedor-clientes h1 {
+  text-align: center;
+  font-family: "Merienda";
+  font-weight: 700;
+  color: #FFD24C;
+}
+.contenedor-clientes .contenedor-opiniones-clientes {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  gap: 32px;
+  padding: 32px;
+  align-items: center;
+  font-family: "Poppins";
+}
+.contenedor-clientes .contenedor-opiniones-clientes .btn-opiniones-clientes {
+  border-radius: 100%;
+  background-color: #262626;
+  border: 2px solid #FFD24C;
+}
+.contenedor-clientes .contenedor-opiniones-clientes .btn-opiniones-clientes:hover {
+  background: #FFD24C;
+  border: 2px solid #262626;
+}
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-0,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-0 img,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 img {
+  width: 64px;
+  border-radius: 32px;
+}
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-0 p,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 p {
+  font-family: "Poppins";
+  font-size: 1em;
+  color: #fff;
+}
+.contenedor-clientes .contenedor-opiniones-clientes button {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+}
+.contenedor-clientes .tu-opinion-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 20px;
+  background: #FFD24C;
+  width: 40%;
+  margin: 0 auto;
+}
+.contenedor-clientes .tu-opinion-contenedor img {
+  width: 64px;
+  border-radius: 32px;
+}
+.contenedor-clientes .tu-opinion-contenedor .user-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-clientes .tu-opinion-contenedor .user-name p {
+  font-family: "Merienda";
+  font-size: 1.2em;
+  color: #262626;
+  margin: 0;
+}
+.contenedor-clientes .tu-opinion-contenedor .estrellas {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.contenedor-clientes .tu-opinion-contenedor form {
+  grid-column: 1/3;
+}
+.contenedor-clientes .tu-opinion-contenedor form input.textarea {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.contenedor-clientes .tu-opinion-contenedor button {
+  background: #262626;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.contenedor-clientes .tu-opinion-contenedor button:hover {
+  background: #fff;
+  color: #262626;
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    height: 50rem !important;
+    padding-bottom: 100px;
+  }
+  footer {
+    border-top: 2px solid #FFD24C !important;
+    padding: 8px !important;
+  }
+  footer .redes-sociales {
+    height: 100% !important;
+  }
+  footer .redes-sociales .contenedor-nosotros h3 {
+    font-size: 16px !important;
+  }
+  footer .redes-sociales .contenedor-nosotros p {
+    font-size: 10px !important;
+  }
+  footer .img-footer {
+    width: 5% !important;
+  }
+  footer .img-footer img {
+    display: none !important;
+  }
+  footer .contacto .contenedor-contacto form .input-correo,
+footer .contacto .contenedor-contacto form .textarea-mensaje {
+    margin-bottom: 22px !important;
+  }
+  footer .copy-main p {
+    font-size: 0.8em;
+    margin: 0;
+  }
+  section.grid-galeria {
+    padding: 0 !important;
+    margin-top: 22% !important;
+  }
+  section.grid-galeria .img-9 {
+    display: none !important;
+  }
+  .menu-titulo h2 {
+    margin-top: 25% !important;
+  }
+  section.menu {
+    margin-top: 15% !important;
+  }
+  section.menu .item .comida-precio h4 {
+    font-size: 12px !important;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion h2 {
+    margin: 64px 0px 32px 0px;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion p {
+    margin: 16px 0px 0px 0px;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion .enlaces a {
+    margin: 32px;
+  }
+  .contenedor-ubicacion .googlemaps-ubicacion-losJardines {
+    width: auto;
+  }
+  .contenedor-reservar {
+    margin-top: 100px !important;
+    margin-bottom: 32px !important;
+    height: 800px;
+  }
+  .contenedor-reservar img {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .contenedor-reservar .contenedor-texto-reservar h2 {
+    font-size: 1.2em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar h3 {
+    font-size: 1.2em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar p {
+    font-size: 0.8em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar a {
+    margin: 24px auto !important;
+  }
+  /* CLIENTES */
+  .contenedor-clientes {
+    margin: 78px 16px 16px 0px;
+  }
+  .contenedor-clientes h1 {
+    font-size: 1.3em;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 16px;
+    padding: 16px;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-0 p,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 p {
+    font-size: 0.8em;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-1 {
+    display: none;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes button {
+    width: 32px;
+    height: 32px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor {
+    width: 90%;
+    gap: 8px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor .user-name p {
+    font-size: 1em;
+  }
+  .contenedor-clientes .tu-opinion-contenedor form {
+    width: auto;
+  }
+  .contenedor-clientes .tu-opinion-contenedor button {
+    width: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  header {
+    height: 50rem !important;
+    padding-bottom: 100px;
+  }
+  footer {
+    border-top: 2px solid #FFD24C !important;
+    padding: 8px !important;
+  }
+  footer .redes-sociales {
+    height: 100% !important;
+  }
+  footer .redes-sociales .contenedor-nosotros h3 {
+    font-size: 16px !important;
+  }
+  footer .redes-sociales .contenedor-nosotros p {
+    font-size: 10px !important;
+  }
+  footer .img-footer {
+    width: 5% !important;
+  }
+  footer .img-footer img {
+    display: none !important;
+  }
+  footer .contacto .contenedor-contacto form .input-correo,
+footer .contacto .contenedor-contacto form .textarea-mensaje {
+    margin-bottom: 22px !important;
+  }
+  footer .copy-main p {
+    font-size: 0.8em;
+    margin: 0;
+  }
+  section.grid-galeria {
+    padding: 0 !important;
+    margin-top: 22% !important;
+  }
+  section.grid-galeria .img-9 {
+    display: none !important;
+  }
+  .menu-titulo h2 {
+    margin-top: 25% !important;
+  }
+  section.menu {
+    margin-top: 15% !important;
+  }
+  section.menu .item .comida-precio h4 {
+    font-size: 12px !important;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion h2 {
+    margin: 64px 0px 32px 0px;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion p {
+    margin: 16px 0px 0px 0px;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion .enlaces a {
+    margin: 32px;
+  }
+  .contenedor-ubicacion .googlemaps-ubicacion-losJardines {
+    width: auto;
+  }
+  .contenedor-reservar {
+    margin-top: 100px !important;
+    margin-bottom: 32px !important;
+    height: 800px;
+  }
+  .contenedor-reservar img {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .contenedor-reservar .contenedor-texto-reservar h2 {
+    font-size: 1.2em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar h3 {
+    font-size: 1.2em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar p {
+    font-size: 0.8em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar a {
+    margin: 24px auto !important;
+  }
+  /* CLIENTES */
+  .contenedor-clientes {
+    margin: 70px 8px 8px 0px;
+  }
+  .contenedor-clientes h1 {
+    font-size: 1em;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 8px;
+    padding: 8px;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-0 p,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 p {
+    font-size: 0.5em;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-1 {
+    display: none;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes button {
+    width: 32px;
+    height: 32px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor {
+    width: 100%;
+    gap: 8px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor .user-name p {
+    font-size: 0.8em;
+  }
+  .contenedor-clientes .tu-opinion-contenedor form {
+    width: auto;
+  }
+  .contenedor-clientes .tu-opinion-contenedor button {
+    width: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  nav.nav-ubi {
+    border-bottom: 2px solid #FFD24C !important;
+  }
+  header {
+    height: 784px !important;
+  }
+  header .inicio {
+    margin: 45% 25% !important;
+  }
+  footer {
+    border-top: 2px solid #FFD24C !important;
+    padding: 8px !important;
+  }
+  footer .redes-sociales {
+    height: 100% !important;
+  }
+  footer .redes-sociales .contenedor-nosotros h3 {
+    font-size: 16px !important;
+  }
+  footer .redes-sociales .contenedor-nosotros p {
+    font-size: 10px !important;
+  }
+  footer .img-footer {
+    width: 5% !important;
+  }
+  footer .img-footer img {
+    display: none !important;
+  }
+  footer .contacto .contenedor-contacto form .input-correo,
+footer .contacto .contenedor-contacto form .textarea-mensaje {
+    margin-bottom: 22px !important;
+  }
+  footer .copy-main p {
+    font-size: 0.8em;
+    margin: 0;
+  }
+  section.grid-galeria {
+    padding: 0 !important;
+    margin-top: 22% !important;
+  }
+  section.grid-galeria .img-9 {
+    display: none !important;
+  }
+  .menu-titulo h2 {
+    margin-top: 25% !important;
+  }
+  section.menu {
+    margin-top: 15% !important;
+  }
+  section.menu .item .comida-precio h4 {
+    font-size: 12px !important;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion h2 {
+    margin: 64px 32px 32px 32px;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion p {
+    margin: 16px 32px 0px 32px;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion .enlaces a {
+    margin: 32px;
+  }
+  .contenedor-ubicacion .googlemaps-ubicacion-losJardines {
+    width: auto;
+  }
+  .contenedor-reservar {
+    margin-top: 100px !important;
+    margin-bottom: 32px !important;
+    height: 900px;
+  }
+  .contenedor-reservar img {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .contenedor-reservar .contenedor-texto-reservar h2 {
+    font-size: 1.2em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar h3 {
+    font-size: 1.2em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar p {
+    font-size: 0.8em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar a {
+    margin: 24px auto !important;
+  }
+  .contenedor-clientes {
+    margin: 70px 0px 8px 0px !important;
+  }
+  .contenedor-clientes h1 {
+    font-size: 1em !important;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 8px;
+    padding: 8px;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-0 p,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 p {
+    font-size: 0.8em !important;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-1 {
+    display: none;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes button {
+    width: 32px;
+    height: 32px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor {
+    padding: 8px;
+    width: 100%;
+    gap: 8px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor .user-name p {
+    font-size: 0.8em;
+  }
+  .contenedor-clientes .tu-opinion-contenedor form {
+    width: auto;
+  }
+  .contenedor-clientes .tu-opinion-contenedor button {
+    width: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    height: auto !important;
+    padding-bottom: 100px;
+  }
+  header .inicio {
+    margin: 45% 21% !important;
+  }
+  footer {
+    border-top: 2px solid #FFD24C !important;
+    padding: 8px !important;
+  }
+  footer .redes-sociales {
+    height: 100% !important;
+  }
+  footer .redes-sociales .contenedor-nosotros h3 {
+    font-size: 16px !important;
+  }
+  footer .redes-sociales .contenedor-nosotros p {
+    font-size: 10px !important;
+  }
+  footer .img-footer {
+    width: 5% !important;
+  }
+  footer .img-footer img {
+    display: none !important;
+  }
+  footer .contacto .contenedor-contacto form .input-correo,
+footer .contacto .contenedor-contacto form .textarea-mensaje {
+    margin-bottom: 22px !important;
+  }
+  footer .copy-main p {
+    font-size: 0.8em;
+    margin: 0;
+  }
+  section.grid-galeria {
+    padding: 0 !important;
+    margin-top: 22% !important;
+  }
+  section.grid-galeria .img-9 {
+    display: none !important;
+  }
+  .menu-titulo h2 {
+    margin-top: 25% !important;
+  }
+  section.menu {
+    padding: 0;
+    margin-top: 15% !important;
+  }
+  section.menu .item .comida-precio h4 {
+    font-size: 12px !important;
+  }
+  .contenedor-ubicacion {
+    padding: 8px !important;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion h2 {
+    margin: 64px 0px 32px 0px;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion p {
+    margin: 16px 0px 0px 0px;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion .enlaces a {
+    margin: 16px;
+  }
+  .contenedor-ubicacion .googlemaps-ubicacion-losJardines {
+    width: auto;
+  }
+  .contenedor-reservar {
+    margin-top: 100px !important;
+    margin-bottom: 32px !important;
+    height: 900px;
+  }
+  .contenedor-reservar img {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .contenedor-reservar .contenedor-texto-reservar h2 {
+    font-size: 1.2em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar h3 {
+    font-size: 1.2em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar p {
+    font-size: 0.8em;
+  }
+  .contenedor-reservar .contenedor-texto-reservar a {
+    margin: 24px auto !important;
+  }
+  .contenedor-clientes {
+    margin: 70px 0px 8px 0px !important;
+  }
+  .contenedor-clientes h1 {
+    font-size: 1em !important;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 8px;
+    padding: 8px;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-0 p,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 p {
+    font-size: 0.6em !important;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-0 img,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 img {
+    width: 48px;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-1 {
+    display: none;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes button {
+    width: 32px;
+    height: 32px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor {
+    padding: 8px;
+    width: 100%;
+    gap: 8px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor .user-name p {
+    font-size: 0.8em;
+  }
+  .contenedor-clientes .tu-opinion-contenedor form {
+    width: auto;
+  }
+  .contenedor-clientes .tu-opinion-contenedor button {
+    width: 75% !important;
+  }
+}
+@media screen and (max-width: 798px) {
+  .nav-container {
+    padding: 0 !important;
+  }
+  .nav-container .container-fluid {
+    padding: 0 !important;
+  }
+  .nav-container .container-fluid a.navbar-brand {
+    padding: 0;
+  }
+  .nav-container .container-fluid button.navbar-toggler {
+    opacity: 100% !important;
+  }
+  .nav-container .container-fluid .container-links {
+    display: none;
+  }
+  header {
+    padding-top: 132px;
+  }
+  header .inicio {
+    width: 334px;
+    padding: 8px;
+  }
+  header .inicio img {
+    width: 108px;
+  }
+  header .inicio h1 {
+    margin-top: 0;
+  }
+  .contenedor-menu .contenedor-comidas {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .contenedor-ubicacion {
+    display: block;
+    margin: 100px auto;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion .btn-rappi,
+.contenedor-ubicacion .contenedor-texto-ubicacion .btn-uberEats {
+    margin: 20px auto;
+  }
+  .contenedor-ubicacion .googlemaps-ubicacion-losJardines iframe {
+    width: auto;
+    margin: auto;
+  }
+  section.menu {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.contenedor-reservar {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+  }
+  div.contenedor-reservar img {
+    margin: 0 128px;
+  }
+  div.contenedor-reservar .contenedor-texto-reservar {
+    text-align: center;
+  }
+  div.contenedor-reservar .contenedor-texto-reservar a {
+    width: 128px;
+    display: block;
+    margin: 50px auto;
+  }
+  .contenedor-clientes {
+    margin: 100px 50px 50px 0px;
+  }
+  .contenedor-clientes h1 {
+    font-size: 1.3em;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-0 p,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 p {
+    font-size: 0.8em;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes button {
+    width: 32px;
+    height: 32px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor {
+    width: 75%;
+    gap: 8px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor .user-name p {
+    font-size: 1em;
+  }
+  .contenedor-clientes .tu-opinion-contenedor form {
+    width: auto;
+  }
+  .contenedor-clientes .tu-opinion-contenedor button {
+    width: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nav-container .container-fluid button.navbar-toggler {
+    opacity: 100%;
+  }
+  .nav-container .container-fluid .container-links {
+    display: none;
+  }
+  /* inicio */
+  header {
+    height: 600px;
+  }
+  header .inicio {
+    width: 184px;
+    padding: 16px;
+  }
+  header .inicio .contenedor-texto h2 {
+    font-size: 16px;
+  }
+  header .inicio .contenedor-texto h1 {
+    margin-top: 0;
+  }
+  footer {
+    border-top: 2px solid #FFD24C !important;
+    padding: 8px !important;
+  }
+  footer .redes-sociales {
+    height: 100% !important;
+  }
+  footer .redes-sociales .contenedor-nosotros h3 {
+    font-size: 16px !important;
+  }
+  footer .redes-sociales .contenedor-nosotros p {
+    font-size: 10px !important;
+  }
+  footer .img-footer {
+    width: 5% !important;
+  }
+  footer .img-footer img {
+    display: none !important;
+  }
+  footer .contacto .contenedor-contacto form .input-correo,
+footer .contacto .contenedor-contacto form .textarea-mensaje {
+    width: 100%;
+    margin-bottom: 22px !important;
+  }
+  footer .copy-main p {
+    font-size: 0.8em;
+    margin: 0;
+  }
+  /* menu */
+  section.menu {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-galeria {
+    margin: 8px;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .grid-galeria .grid-item img {
+    height: 132px;
+  }
+  /* ubicacion */
+  .contenedor-ubicacion {
+    margin: 0;
+    display: block;
+    margin-right: 0px;
+    padding: 32px 32px 32px 32px;
+    border-radius: 0;
+  }
+  .contenedor-ubicacion .googlemaps-ubicacion-losJardines iframe {
+    width: auto;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion {
+    text-align: center;
+  }
+  .contenedor-ubicacion .contenedor-texto-ubicacion .btn-rappi,
+.contenedor-ubicacion .contenedor-texto-ubicacion .btn-uberEats {
+    margin: 16px auto;
+  }
+  /* RESERVAR */
+  .contenedor-reservar {
+    padding: 8px;
+    border-radius: 0;
+    display: block;
+  }
+  .contenedor-reservar img {
+    margin: 0;
+    width: 99%;
+    height: 264px;
+  }
+  .contenedor-reservar .contenedor-texto-reservar {
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 32px;
+  }
+  .contenedor-reservar .contenedor-texto-reservar a {
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  /* CLIENTES */
+  .contenedor-clientes {
+    margin: 78px 16px 16px 0px;
+  }
+  .contenedor-clientes h1 {
+    font-size: 1.3em;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 16px;
+    padding: 16px;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-0 p,
+.contenedor-clientes .contenedor-opiniones-clientes .cliente-1 p {
+    font-size: 0.8em;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes .cliente-1 {
+    display: none;
+  }
+  .contenedor-clientes .contenedor-opiniones-clientes button {
+    width: 32px;
+    height: 32px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor {
+    width: 90%;
+    gap: 8px;
+  }
+  .contenedor-clientes .tu-opinion-contenedor .user-name p {
+    font-size: 1em;
+  }
+  .contenedor-clientes .tu-opinion-contenedor form {
+    width: auto;
+  }
+  .contenedor-clientes .tu-opinion-contenedor button {
+    width: auto;
+  }
+}
+body {
+  margin: 0;
+  background: rgb(48, 56, 65);
+  background: linear-gradient(0deg, rgb(48, 56, 65) 17%, rgb(230, 175, 46) 36%, rgb(245, 208, 97) 50%, rgb(111, 95, 44) 80%, rgb(48, 56, 65) 93%);
+}
+
+.nav-container {
+  background: #262626 !important;
+}
+.nav-container .container-fluid {
+  padding: 8px;
+  margin: 0 32px;
+}
+.nav-container .container-fluid a {
+  font-family: "Merienda";
+  color: #FFD24C;
+}
+.nav-container .container-fluid a img {
+  width: 64px;
+  transition: all 1.2s;
+}
+.nav-container .container-fluid a img:hover {
+  scale: 1.4;
+  transform: rotate(360deg);
+}
+.nav-container .container-fluid button.navbar-toggler {
+  opacity: 1%;
+}
+.nav-container .container-fluid .container-links {
+  padding: 8px;
+  align-items: center;
+  width: 60%;
+}
+.nav-container .container-fluid .container-links ul {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container .container-fluid .container-links ul li {
+  list-style: none;
+}
+.nav-container .container-fluid .container-links ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-container .container-fluid .offcanvas .offcanvas-header {
+  align-content: center;
+  background-color: #262626;
+}
+.nav-container .container-fluid .offcanvas .offcanvas-header a img {
+  margin-top: 8px;
+  width: 64px;
+}
+.nav-container .container-fluid .offcanvas .offcanvas-header h5.offcanvas-title {
+  font-family: "Merienda";
+  font-weight: 700;
+  color: #FFD24C;
+}
+.nav-container .container-fluid .offcanvas .offcanvas-body {
+  background: rgb(255, 210, 64);
+  background: linear-gradient(0deg, rgb(255, 210, 64) 7%, rgb(181, 157, 78) 20%, rgb(138, 122, 51) 32%, rgb(74, 65, 28) 53%, rgb(38, 38, 38) 79%);
+}
+.nav-container .container-fluid .offcanvas .offcanvas-body ul li {
+  list-style: none;
+  margin: 32px;
+}
+.nav-container .container-fluid .offcanvas .offcanvas-body ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  background: #262626;
+  margin: 0;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-template-rows: 1fr 30px;
+}
+footer .redes-sociales .contenedor-nosotros {
+  display: block;
+  text-align: center;
+}
+footer .redes-sociales .contenedor-nosotros p {
+  color: #fff;
+  font-family: "Poppins";
+}
+footer .redes-sociales .contenedor-nosotros .contenedor-redes {
+  display: flex;
+  justify-content: space-around;
+}
+footer .redes-sociales .contenedor-nosotros .contenedor-redes svg.icon-color {
+  color: #FFD24C;
+}
+footer .contacto p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: "Poppins";
+  color: #fff;
+  font-weight: 100;
+}
+footer .contacto .contenedor-contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .contacto .contenedor-contacto form .textarea-mensaje,
+footer .contacto .contenedor-contacto form .input-correo {
+  height: 32px;
+  margin-bottom: 8px;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+footer .contacto .contenedor-contacto form .boton-formulario {
+  padding: 8px;
+  margin-bottom: 16px;
+  font-family: "Poppins";
+  font-weight: 400;
+  background-color: #262626;
+  border: #92B4EC;
+}
+footer .contacto .contenedor-contacto form .boton-formulario:hover {
+  background: #64c27b;
+  color: #fff;
+  border: #64c27b;
+}
+footer .contacto .contenedor-contacto h3 {
+  color: #FFD24C;
+  font-family: "Poppins";
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+}
+footer section .contenedor-nosotros h3 {
+  color: #FFD24C;
+  font-family: "Poppins";
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+}
+footer div.img-footer {
+  display: flex;
+  align-items: center;
+}
+footer div.img-footer img {
+  margin: 0 auto;
+  width: 50%;
+}
+footer .copy-main {
+  text-align: center;
+  grid-column: -4/-1;
+  grid-row: 2/3;
+}
+footer .copy-main p {
+  color: #FFD24C;
+}
+
+@media screen and (max-width: 450px) {
+  footer .contacto .contenedor form.formulario .input-nombre,
+footer .contacto .contenedor form.formulario .input-correo,
+footer .contacto .contenedor form.formulario .textarea-mensaje {
+    width: 232px;
+    height: 24px;
+  }
+  footer section.redes-sociales .contenedor a svg.icon-color {
+    width: 24px;
+  }
+  footer img {
+    width: 35%;
+    height: 130px;
+    margin-top: 42px;
+  }
+  footer .contacto .contenedor form.formulario .input-nombre,
+footer .contacto .contenedor form.formulario .input-correo,
+footer .contacto .contenedor form.formulario .textarea-mensaje {
+    width: 200px;
+  }
+  footer .contacto .contenedor-contacto {
+    width: 100px;
+  }
+  footer .redes-sociales .contenedor-nosotros {
+    width: 116px;
+    margin-left: 8px;
+  }
+  footer .contacto .contenedor-contacto form.formulario .textarea-mensaje,
+footer .contacto .contenedor-contacto form.formulario .input-correo {
+    width: 100px;
+  }
+  footer .contacto .contenedor-contacto h3 {
+    font-size: 16px;
+  }
+  footer .redes-sociales .contenedor-nosotros h3 {
+    font-size: 16px;
+  }
+  footer .redes-sociales .contenedor-nosotros p {
+    font-size: 12px;
+  }
+  footer .redes-sociales .contenedor-nosotros .contenedor-redes .icon-color {
+    width: 16px;
+  }
+}/*# sourceMappingURL=main.css.map */
