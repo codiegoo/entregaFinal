@@ -1,6 +1,11 @@
-.menu-titulo h2, header .inicio .contenedor-texto h1 {
+header .inicio .contenedor-texto h1 {
   font-family: "Merienda";
   color: #FFD24C;
+}
+
+.menu-titulo h2 {
+  font-family: "Merienda";
+  color: #fff;
 }
 
 header .inicio .contenedor-texto h2 {
@@ -50,15 +55,12 @@ header .inicio .contenedor-texto h2 {
   font-size: 48px;
 }
 
-section.nav-menu {
-  margin-bottom: 0;
-}
-
 section.menu {
+  width: 100%;
   margin-top: 8%;
   align-items: flex-start;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr 1fr;
   grid-template-rows: 1fr;
   justify-content: space-between;
   gap: 8px;
@@ -86,29 +88,47 @@ section.menu .item .comida {
   background: rgb(255, 229, 142);
   background: radial-gradient(circle, rgba(255, 229, 142, 0.9) 0%, rgba(255, 215, 95, 0.9) 52%, rgba(255, 215, 94, 0.9) 76%, rgba(255, 215, 98, 0.9) 88%, rgb(255, 210, 76) 95%, rgb(255, 210, 76) 100%);
   border-radius: 8px;
-  padding: 4px;
+  padding: 8px;
   margin-bottom: 16px;
   box-shadow: 0px 0px 4px 4px rgba(255, 250, 136, 0.69);
   -webkit-box-shadow: 0px 0px 4px 4px rgba(255, 250, 136, 0.69);
   -moz-box-shadow: 0px 0px 4px 4px rgba(255, 250, 136, 0.69);
 }
-section.menu .item .comida .comida-precio {
-  padding: 8px;
+section.menu .item .comida .comida-contenedor {
+  border-radius: 8px;
+}
+section.menu .item .comida .comida-contenedor .comida-precio {
+  background: rgba(255, 255, 255, 0.3);
+  border: 4px solid #262626;
+  border-radius: 8px 8px 0px 0px;
+  padding: 4px;
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
-section.menu .item .comida .texto-descripcion {
-  text-align: center;
-}
-section.menu .item .comida h4 {
+section.menu .item .comida .comida-contenedor .comida-precio h4 {
   font-family: "Poppins";
-  font-size: 20px;
+  font-size: 16px;
 }
-section.menu .item .comida p {
+section.menu .item .comida .comida-contenedor .descripcion {
+  background: #262626;
+  padding: 8px 8px 16px 8px;
+  border-radius: 0px 0px 8px 8px;
+}
+section.menu .item .comida .comida-contenedor .descripcion p,
+section.menu .item .comida .comida-contenedor .descripcion li {
   font-size: 12px;
   text-align: center;
-  padding-top: 8px;
+  color: #FFD24C;
+  margin: 0;
+  text-align: center;
+}
+section.menu .item .comida .comida-contenedor:hover {
+  box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.53);
+  transition-duration: 0.5s;
+  transform: translateY(-4px);
 }
 
 .nav-galeria {
@@ -1073,16 +1093,21 @@ body {
   padding: 8px;
   margin: 0 32px;
 }
+.nav-container .container-fluid .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
 .nav-container .container-fluid a {
   font-family: "Merienda";
+  font-size: 24px;
   color: #FFD24C;
 }
 .nav-container .container-fluid a img {
   width: 64px;
+  height: 64px;
   transition: all 1.2s;
 }
 .nav-container .container-fluid a img:hover {
-  scale: 1.4;
   transform: rotate(360deg);
 }
 .nav-container .container-fluid button.navbar-toggler {
